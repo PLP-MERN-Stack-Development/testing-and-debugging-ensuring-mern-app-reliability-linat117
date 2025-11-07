@@ -1,0 +1,14 @@
+"scripts": {
+  "start": "react-scripts start",
+  "test": "react-scripts test --env=jsdom",
+  "test:coverage": "react-scripts test --coverage --watchAll=false",
+  "build": "react-scripts build"
+},
+
+{
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "msw": "^2.11.6"
+  }
+}
